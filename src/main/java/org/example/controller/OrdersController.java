@@ -21,7 +21,7 @@ public class OrdersController {
 }
 
     @GetMapping("/getOrders")
-    public Iterable<OrdersEntity> getUser(){
+    public Iterable<OrdersEntity> getOrders(){
         return service.getOrders();
     }
 
@@ -34,7 +34,6 @@ public class OrdersController {
             return "Not Deleted";
         }
     }
-
 
     @GetMapping("search/{id}")
     public Orders getOrdersId(@PathVariable String id){

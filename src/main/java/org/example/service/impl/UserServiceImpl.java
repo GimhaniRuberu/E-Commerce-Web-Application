@@ -27,8 +27,6 @@ public class  UserServiceImpl implements UserService {
         repository.save(entity);
     }
 
-
-
     public List<UserEntity> getUser() {
         return (List<UserEntity>) repository.findAll();
     }

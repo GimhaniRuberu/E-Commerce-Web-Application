@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2ebf31-5e96-450c-af62-1c6e61732f2d" name="Changes" comment="" />
+    <list default="true" id="6a2ebf31-5e96-450c-af62-1c6e61732f2d" name="Changes" comment="Deploy User microservice">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/ItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/ItemsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/ItemsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/ItemsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/UserServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,11 +51,11 @@
       <recent name="D:\E-Commerce Web Application\E-commerce Web Appilication\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.dto" />
       <recent name="org.example.controller" />
       <recent name="org.example.service.impl" />
       <recent name="org.example.service" />
       <recent name="org.example.repository" />
+      <recent name="org.example.entity" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,12 +108,33 @@
       <option name="project" value="LOCAL" />
       <updated>1712639753711</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Deploy Orders microservice">
+      <option name="closed" value="true" />
+      <created>1712644303947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712644303947</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement two micro services admin and user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement two micro services admin and user" />
+    <MESSAGE value="Deploy Orders microservice" />
+    <MESSAGE value="Deploy User microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy User microservice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
