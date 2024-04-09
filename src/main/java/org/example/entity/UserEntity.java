@@ -16,11 +16,11 @@ public class UserEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-    private String isbn;
-    private String title;
-    private String author;
-    private String category;
-    private Integer qty;
+    private String id;
+    private String name;
+    private String number;
+    private String email;
+    private String password;
+    private String address;
 
 }

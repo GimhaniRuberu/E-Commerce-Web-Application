@@ -1,5 +1,4 @@
 package org.example.service.impl;
-
 import org.example.dto.User;
 import org.example.entity.UserEntity;
 import org.example.repository.UserRepository;
@@ -13,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UserServiceImpl implements UserService {
+public class  UserServiceImpl implements UserService {
     @Autowired
     UserRepository repository;
 
@@ -28,8 +27,10 @@ public class UserServiceImpl implements UserService {
         repository.save(entity);
     }
 
+
+
     public List<UserEntity> getUser() {
-       return (List<UserEntity>) repository.findAll();
+        return (List<UserEntity>) repository.findAll();
     }
 
     @Override
@@ -47,5 +48,6 @@ public class UserServiceImpl implements UserService {
         Optional<UserEntity> byId = repository.findById(id);
         return mapper.map(byId,User.class) ;
     }
-    
+
+
 }
