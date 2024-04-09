@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2ebf31-5e96-450c-af62-1c6e61732f2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/UserServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a2ebf31-5e96-450c-af62-1c6e61732f2d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "D:/E-Commerce Web Application/E-commerce Web Appilication/src/main/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -50,11 +46,11 @@
       <recent name="D:\E-Commerce Web Application\E-commerce Web Appilication\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.dto" />
+      <recent name="org.example.controller" />
       <recent name="org.example.service.impl" />
       <recent name="org.example.service" />
       <recent name="org.example.repository" />
-      <recent name="org.example.entity" />
-      <recent name="org.example.dto" />
     </key>
   </component>
   <component name="RunManager">
@@ -99,7 +95,20 @@
       <option name="presentableId" value="Default" />
       <updated>1712567448813</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implement two micro services admin and user">
+      <option name="closed" value="true" />
+      <created>1712639753711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712639753711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement two micro services admin and user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement two micro services admin and user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
